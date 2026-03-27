@@ -58,14 +58,40 @@ The project includes an interactive dashboard where users can:
 ## Model Saving
 ```python
 joblib.dump(model_xgb, "xgboost_model.pkl")
+```
 
 ---
+
+## How to Run
+
+1. Clone the repository:
+```bash
+git clone https://github.com/shoiebemad/airline-customer-satisfaction-analysis.git
+```
+
+2. Navigate to the project folder:
+```bash
+cd airline-customer-satisfaction-analysis
+```
+
+3. Install the required libraries:
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the Jupyter Notebook to explore the analysis and models.
+
+5. (Optional) Run the dashboard to interact with the visualizations.
+
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates a complete data science workflow, starting from data cleaning and exploratory analysis to building and evaluating multiple machine learning models.
 
 **XGBoost achieved the highest performance** and was selected as the final model for predicting customer satisfaction.
 
 The results highlight how data-driven approaches can be used to better understand customer behavior and improve decision-making in the airline industry.
+
+---
+
