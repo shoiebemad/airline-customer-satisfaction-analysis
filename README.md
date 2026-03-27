@@ -60,10 +60,3 @@ The project includes an interactive dashboard where users can:
 joblib.dump(model_xgb, "xgboost_model.pkl")
 
 ---
-## **Conclusion**
-
-This project demonstrates a complete data science workflow, starting from data cleaning and exploratory analysis to building and evaluating multiple machine learning models.
-
-Among all tested models, XGBoost achieved the highest performance and was selected as the final model for predicting customer satisfaction.
-
-The results highlight how data-driven approaches can be used to better understand customer behavior and improve decision-making in the airline industry.
